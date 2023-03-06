@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    top: 0px;
+    margin: 0px;
+}
+
+body{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 10% 90%;
+    background-color: black; 
+    color: white;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+aside div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#BurgerMenu{
+    margin-top: 30px;
+}
+
+aside a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside a p{
+    color: black;
+    font-family: roboto;
+    font-size: 12px;
+}
+
+
+#caja_1{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.cajadeinput button{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+#idlupa{
+    background-color: rgb(173, 165, 165);
+    border-radius: 0px 25px 25px 0px;
+    width: 45px;
+    height: 45px;
+    margin-left: -8px;
+}
+
+#micro{
+    border-radius: 50px;
+    background-color: rgb(173, 165, 165);
+    width: 45px;
+    height: 45px;
+    gap: 50px;
+}
+
+#micro img{
+    width: 32px;
+    height: 30px;
+}
+
+nav{
+    display: flex;
+    margin-top: 10px; 
+    justify-content:space-between;
+}
+
+
+.cajadeinput div{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    
+}
+
+.cajadeinput input{
+    width: 465px;
+    height: 40px;
+    padding-left: 8px;
+    border-radius: 25px 0px 0px 25px;
+    border:none;
+    color: black;
+}
+
+.cajadeinput{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.acciondeusuario{
+    display: flex;
+    align-items: center;
+}
+
+.acciondeusuario img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#barraderecomendacion{
+    display: flex;
+}
+
+.botonRecomendaciones{
+    background-color: rgb(173, 165, 165);
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.columnavideo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filainferiorvideo{
+    display: flex;
+    gap: 8px;
+}
+
+#cuadriculadevideo{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-top: 15px;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.imgcanal{
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.textovideo{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.imgvideo{
+    border-radius: 20px;
+    width: auto;
+}
+
+.textovideo{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.canal{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+
+.textovideo h3{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.textovideo p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+}
+
+.visitas p{
+    font-family: 10px;
+}

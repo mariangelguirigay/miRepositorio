@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <!--Barra Lateral-->
+    <aside>
+        <!--Burguer Menu-->
+        <div id="BurgerMenu">
+            <img src="./imagenes/BurgerMenu.png" alt="Menu">
+        </div>
+        <!--Home-->
+        <div id="Home">
+            <a href="https://www.youtube">
+                <img src="./imagenes/HomeIcon.png" alt="Inicio">
+            </a>
+            <p>Inicio</p>
+        </div>
+        <!--Shorts-->
+        <div id="caja_3">
+            <a href="https://www.youtube.com/shorts/asDdHMENBDU">
+                <img src="./imagenes/Shorts.png" alt="Shorts">
+            </a>
+            <p>Shorts</p>
+        </div>
+        <!--Suscripciones-->
+        <div id="caja_4">
+            <a href="https://www.youtube.com/feed/subscriptions"">
+                <img src="./imagenes/Suscripciones.png" alt="Suscripciones">
+            </a>
+            <p>Suscripciones</p>
+        </div>
+        <!--Mi Biblioteca-->
+        <div id="caja_5">
+            <a href="https://www.youtube.com/feed/library">
+                <img src="./imagenes/Biblioteca.png" alt="Mi Biblioteca">
+            </a>
+        </div>
+    </aside>
+
+    <!--Bloque Principal-->
+    <main>
+        <!--Barra de Navegacion-->
+        <nav>
+            <!--logotipo de Youtube-->
+            <div>
+                <a href="https://www.youtube.com/">
+                    <img src="./imagenes/LogoNavBar.png" alt="Youtube">
+                </a>
+            </div>
+            <!--Input y Boton de microfono-->
+            <div class="cajadeinput">
+                <!--Intup y Lupa-->
+                <div>
+                    <input type="text" placeholder="Buscar">
+                    <button id="idlupa">
+                        <img src="./imagenes/Lupa.png" alt="Lupa">
+                    </button>
+                </div>
+                <!--Microfono-->
+                <button id="micro">
+                    <img src="./imagenes/VoiceSearch.png" alt="Microfono">
+                </button>
+            </div>
+            <!--Acciones de usuarios-->
+            <div class="acciondeusuario">
+                <!--Subir video-->
+                <a href="">
+                    <img src="./imagenes/SubirVideo.png" alt="Upload">
+                </a>
+                <!--Notificaciones-->
+                <a href="">
+                    <img src="./imagenes/Notificaciones.png" alt="Notificaciones">
+                </a>
+                <!--Perfil-->
+                <a href="">
+                    <img src="./imagenes/mm.png" alt="Perfil">
+                </a>
+            </div>
+        </nav>
+
+        <!--Barra de recomendados-->
+        <section id="barraderecomendados">
+            <button class="botonRecomendaciones">Todo</button>
+            <button class="botonRecomendaciones">Metal</button>
+            <button class="botonRecomendaciones">Rock</button>
+            <button class="botonRecomendaciones">Reggaeton</button>
+            <button class="botonRecomendaciones">Comedia</button>
+            <button class="botonRecomendaciones">Historia</button>
+            <button class="botonRecomendaciones">Astronomia</button>
+            <button class="botonRecomendaciones">Musica Pop</button>
+            <button class="botonRecomendaciones">Videojuegos</button>
+            <button class="botonRecomendaciones">Musica</button>
+        </section>
+
+        <!--Cuadricula de Videos-->
+        <section id="cuadriculadevideo">
+
+            <!--Video 1-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=Au_nutXXMgE"">
+                    <img class="imgvideo" src="./imagenes/imgdevideo1.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v1.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y vistas-->
+                    <div class="textovideo">
+                        <h3>AsÍ murió el actor Roberto Lamarca</h3>
+                        <p class="canal">Son Venezolanos</p>
+                        <p class="vistas">841.084 visitas hace 1 mes</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 2-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=kpfIKqRWpeg">
+                    <img class="imgvideo" src="./imagenes/imgdevideo2.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v2.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>Así Lucen Los Actores de La Momia Hoy en Día</h3>
+                        <p class="canal">Estrellas Tops</p>
+                        <p class="visitas">916.297 visitas hace 8 meses</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 3-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=MXXqOeKN1p0">
+                    <img class="imgvideo" src="./imagenes/imgvideo3.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v3.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>¿Qué Le Pasó Realmente Al Cake Boss?</h3>
+                        <p class="canal">Mashed Español</p>
+                        <p class="visitas">5,9 M de visitas hace 1 años</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 4-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=EOgzmnGt7SU">
+                    <img class="imgvideo" src="./imagenes/imgvideo4.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v4.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>Conoce a las esposas de los Reggaetoneros</h3>
+                        <p class="canal">Viral</p>
+                        <p class="visitas">33 M de vistas hace 4 años</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 5-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=M9slbMGuKKg">
+                    <img class="imgvideo" src="./imagenes/imgdevideo5.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v5.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>KAROL G, Shakira - Te Quedó Grande (Video Oficial)</h3>
+                        <p class="canal">HMBVEVO</p>
+                        <p class="visitas">6 M de visitas hace 8 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 6-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=LXY_HIU9CwQ">
+                    <img class="imgvideo" src="./imagenes/imgdevideo6.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v6.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>Michael Jackson meets Princess Diana & Prince Charles</h3>
+                        <p class="canal">Iconic</p>
+                        <p class="visitas">95 M de visitas hace 12 años</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 7-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=YyOS_ycqgkQ">
+                    <img class="imgvideo" src="./imagenes/imgdevideo7.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v7.jpg" alt= "perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>¿Cómo se veían los Incas?</h3>
+                        <p class="canal">La Peruanidad</p>
+                        <p class="visitas">771.408 visitas hace 3 días</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 8-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=KSsx-eFJZFw">
+                    <img class="imgvideo" src="./imagenes/imgvideo8.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v8.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>Mora - TUYO | PRIMER DIA DE CLASES</h3>
+                        <p class="canal">Mora</p>
+                        <p class="visitas">9,2 M de visitas hace 2 años</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 9-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=v3-9eDFDAFw">
+                    <img class="imgvideo" src="./imagenes/imgdevideo9.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v9.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>Melendi - Tu Jardín con enanitos (Videoclip oficial)</h3>
+                        <p class="canal">Melendi</p>
+                        <p class="visitas">242 M de visitas hace 10 años</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 10-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=Oextk-If8HQ">
+                    <img class="imgvideo" src="./imagenes/imgdevideo10.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v10.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>Keane - Somewhere Only We Know (Official Music Video)</h3>
+                        <p class="canal">Keane</p>
+                        <p class="visitas">430 M de visitas hace 13 años</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 11-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=mjKBjRevfq0">
+                    <img class="imgvideo" src="./imagenes/imgdevideo11.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v11.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>Caramelos de Cianuro - Rubia Sol Morena Luna</h3>
+                        <p class="canal">Caramelos De Cianuro</p>
+                        <p class="visitas">38 M de visitas hace 11 años</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Video 12-->
+            <div class="columnavideo">
+                <!--Imagen del Video / Fila Superior-->
+                <a href="https://www.youtube.com/watch?v=l7TRUfbPqT0">
+                    <img class="imgvideo" src="./imagenes/imgdevideo12.png" alt="imgvideo">
+                </a>
+
+                <!--Fila Inferior-->
+                <div class="filainferiorvideo">
+                    <!--Perfil de canal-->
+                    <div>
+                        <img class="imgcanal" src="./imagenes/v12.jpg" alt="perfildelcanal">
+                    </div>
+                    <!--Titulo, canal y visitas-->
+                    <div class="textovideo">
+                        <h3>Dosis Diaria Roka - La cara que pones</h3>
+                        <p class="canal">Roka Stereo</p>
+                        <p class="visitas">49.429 visitas hace 8 horas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
